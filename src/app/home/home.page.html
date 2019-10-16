@@ -1,37 +1,60 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
+    <ion-title style="text-align: center">
       My BlankApp
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
+    <div class="bg-img" style="position: absolute"></div>
     <div class="ion-padding">
         <ion-row>
             <ion-col>
                 <div id="menu-wrapper">
                     <div class="row-menu">
-                        <div class="col col-50">
-                            <a href="#" class="btn-menu" routerLink="/login" routerDirection="forward">
+                        <div class="login">
+                            <a href="#" class="btn-login" routerLink="/login" routerDirection="forward">
                                 <span class="icon lh60">
                                     <ion-icon name="wifi"></ion-icon>
                                 </span>
                                 <span class="text">
-                                    Masuk
+                                    Log In
                                 </span>
                             </a>
+                        </div>
+                    </div>
+                       <div class="ion-row">
+                        <div class="col col-50">
+                            <a href="#" class="btn-menu" routerLink="/keranjang" routerDirection="forward">
+                                <span class="icon lh60">
+                                    <ion-icon style="font-size: 50px" name="CART"></ion-icon>
+                                </span>
+                                <span class="text">
+                                    Cart
+                                </span>
+                            </a>	
                         </div>
                         <div class="col col-50">
                             <a href="#" class="btn-menu" routerLink="/products" routerDirection="forward">
                                 <span class="icon lh60">
-                                    <ion-icon name="appstore"></ion-icon>
-                                </span>
-                                <span class="text">
+                                    <ion-icon style="font-size: 50px" name="appstore"></ion-icon>
+                                </span>                                <span class="text">
                                     Barang
                                 </span>
+
                             </a>
                         </div>
+                        <div class="col col-50">
+                                <a href="#" class="btn-menu" routerLink="/barang" routerDirection="forward">
+                                    <span class="icon lh60">
+                                        <ion-icon style="font-size: 50px" name="add"></ion-icon>
+                                    </span>                                <span class="text">
+                                        Tambah Barang
+                                    </span>
+    
+                                </a>
+                            </div>
                     </div>
                 </div>
             </ion-col>

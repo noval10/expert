@@ -1,5 +1,8 @@
 $color-primary: #9ea1a3;
 
+.form-group {
+    margin-bottom: 20px;
+}
 #menu-wrapper {
 }
 
@@ -11,7 +14,7 @@ $color-primary: #9ea1a3;
 }
 
 .btn-menu {
-    margin: 1px auto;
+    margin:40px auto;
     text-align: center;
     display: block;
     color: $color-primary;

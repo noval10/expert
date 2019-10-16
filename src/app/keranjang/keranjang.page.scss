@@ -1,0 +1,72 @@
+$color-primary: #9ea1a3;
+
+.cart--action {
+    margin-top: 10px;
+}
+
+.btn-cart--wrapper {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+
+    .btn-cart--action {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #3880ff;
+        color: #fff;
+        position: relative;
+        top: 10px;
+    }
+}
+
+
+.btn-trash--wrapper {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+
+    button {
+        width: 100%;
+        height: 100%;
+        font-size: 22px;
+        color: #f04141;
+        background: none;
+        position: relative;
+        top: 10px;
+    }
+} 
+
+.button {
+    margin: 10px auto;
+    text-align: center;
+
+}
+.Harga {
+    margin-right: 100px auto;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+#menu-wrapper {
+}
+
+.row-menu::before,
+.row-menu::after {
+    content: " ";
+    display: table;
+    clear:both
+}
+
+.btn-menu {
+    margin: 125px auto;
+    text-align: center;
+    display: block;
+    color: $color-primary;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color:darkcyan;
+}
