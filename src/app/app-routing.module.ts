@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'products', loadChildren: './products/products.module#ProductsPageModule' },
   { path: 'keranjang', loadChildren: './keranjang/keranjang.module#KeranjangPageModule' },
   { path: 'barang', loadChildren: './barang/barang.module#BarangPageModule' },
+  { path: 'artikel', loadChildren: './artikel/artikel.module#ArtikelPageModule' },
  
 ];
 

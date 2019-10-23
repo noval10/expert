@@ -34,7 +34,6 @@ $color-primary: #3ea7ed;
     .text {
         display: block;
         text-align: center;
-        font-weight: bold;
     }
 
     .icon {
@@ -72,8 +71,7 @@ $color-primary: #3ea7ed;
         border: 0px solid black
     }
 }
-.bg-img{
-    background : black;
-    height: 100vh;
-    width: 100vh;
+.ion-content {
+    background: blu;
+    color: white;
 }
